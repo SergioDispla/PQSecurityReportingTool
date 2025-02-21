@@ -9,7 +9,7 @@ chmod +x installer.sh
 echo "Replacing BlackStone Files"
 
 #Find the Directory
-cd `find / -type d -name "PQSecurityReportingTool"`
+cd `find / -type d -name "PQSecurityReportingTool" 2>/dev/null`
 
 #Replace the branding images 
 mv top-banner.jpg /opt/lampp/htdocs/BlackStone/assets/images/report/
