@@ -3,8 +3,7 @@
 echo "Replacing BlackStone Files"
 
 #Find the Directory
-A=`find ~/ -type d -name "PQSecurityReportingTool"` 
-cd $A
+cd `find ~/ -type d -name "PQSecurityReportingTool"`
 
 #Replace the branding images 
 mv top-banner.jpg /opt/lampp/htdocs/BlackStone/assets/images/report/
