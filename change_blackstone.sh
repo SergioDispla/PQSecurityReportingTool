@@ -5,9 +5,9 @@ PATH_BS = "/opt/lampp/htdocs/BlackStone/gen_word_tecnico.ph"
 
 echo "Replacing BlackStone Files"
 
-#Download the repository and all necessary files
-git clone https://github.com/SergioDispla/PQSecurityReportingTool.git
-cd PQSecurityReportingTool/
+#Find the Directory
+A=`find ~/ -type d -name "PQSecurityReportingTool"` 
+cd $A
 
 #Replace the branding images 
 mv top-banner.jpg /opt/lampp/htdocs/BlackStone/assets/images/report/
