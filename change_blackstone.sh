@@ -1,9 +1,15 @@
 #!/bin/bash
 
+cd /opt
+git clone https://github.com/micro-joan/BlackStone
+cd BlackStone
+chmod +x installer.sh
+./installer.sh
+
 echo "Replacing BlackStone Files"
 
 #Find the Directory
-cd `find ~/ -type d -name "PQSecurityReportingTool"`
+cd `find / -type d -name "PQSecurityReportingTool"`
 
 #Replace the branding images 
 mv top-banner.jpg /opt/lampp/htdocs/BlackStone/assets/images/report/
