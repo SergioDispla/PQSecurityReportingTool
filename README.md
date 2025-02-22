@@ -22,7 +22,7 @@ A new pop-up for XAMP will show up, please click next...next until it gets insta
 
 
 #### Step 3
-Once installed, the script will replace the necessary files with all the PQ branding 
+Once installed, the script will replace the necessary files with all the PQ branding. Make sure there are no errors on this part. 
 ![image](https://github.com/user-attachments/assets/0ead1f53-8a53-4339-a01e-e0bdbb53d391)
 
 
