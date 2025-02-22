@@ -24,7 +24,7 @@ chmod 777 /opt/lampp/htdocs/BlackStone/assets/images/auth/pqsecurity.jpg
 #Replace the branding PQ images
 sed --in-place '112 c\      Copyright &copy; <?php echo $anioActual; ?> PQ Security. All rights reserved.' /opt/lampp/htdocs/BlackStone/gen_word_tecnico.php
 sed --in-place '150 c\       <img width=320 height=170 id=image1.jpeg src="assets/images/report/logo_portada2.png" style="margin-left:-75px;">' /opt/lampp/htdocs/BlackStone/gen_word_tecnico.php
-sed --in-place '235 c\               <span style='font-size:10.0pt;font-family:"Verdana",sans-serif'>PQ Security<span style='letter-spacing:-.05pt'>' /opt/lampp/htdocs/BlackStone/gen_word_tecnico.php
+sed --in-place "235 c\               <span style=\'font-size:10.0pt;font-family:\"Verdana\",sans-serif\'>PQ Security<span style=\'letter-spacing:-.05pt\'>" /opt/lampp/htdocs/BlackStone/gen_word_tecnico.php
 sed --in-place '19898 c\  background: url("../images/auth/pqsecurity.jpg");' /opt/lampp/htdocs/BlackStone/assets/css/style.css
 
 #Removing default branding 
