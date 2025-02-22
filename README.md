@@ -28,3 +28,8 @@ Once installed, the script will replace the necessary files with all the PQ bran
 
 #### Step 4
 Reboot!! :) 
+
+
+#### Step 5
+To launch the application just open a terminal and execute the commnad 'blackstone'
+![image](https://github.com/user-attachments/assets/62f675ea-4b5e-4a3e-a479-6168896e496f)
