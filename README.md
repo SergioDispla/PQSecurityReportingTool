@@ -42,7 +42,7 @@ Reboot!! :)
 
 To launch the application just open a terminal and execute the commnad 'blackstone'
 
-![image](https://github.com/user-attachments/assets/62f675ea-4b5e-4a3e-a479-6168896e496f)
+![image](https://github.com/user-attachments/assets/01c5581f-2d0e-49cb-b56b-3e54fd5e58a0)
 
 Credentials for the portal web: 
 
